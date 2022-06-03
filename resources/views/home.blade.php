@@ -5,17 +5,52 @@
         <div class="col-lg-12">
             <div class="card">
                 <div class="card-header">
-                    Dashboard
+                    Welcome back Darren!
                 </div>
 
                 <div class="card-body">
-                    @if(session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="card">
+                                <div class="card-header">
+                                    Unfulfilled Orders
+                                </div>
+                                <div class="card-body">
+                                    10 Orders
+                                </div>
+                            </div>
                         </div>
-                    @endif
-
-                    You are logged in!
+                        <div class="col-3">
+                            <div class="card">
+                                <div class="card-header">
+                                    Today Total Earnings
+                                </div>
+                                <div class="card-body">
+                                    RM 817.00
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <div class="card-header">
+                                    Last Sale
+                                </div>
+                                <div class="card-body">
+                                    RM1,200.00
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <div class="card-header">
+                                    Running Low Products
+                                </div>
+                                <div class="card-body">
+                                    0 Product
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
